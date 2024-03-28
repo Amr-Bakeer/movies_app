@@ -31,13 +31,13 @@ class ApplicationThemeManager {
     textTheme: const TextTheme(
       titleLarge: TextStyle(
         fontFamily: "Inter",
-        fontWeight: FontWeight.w600,
+        fontWeight: FontWeight.bold,
         fontSize: 24,
         color: Colors.white,
       ),
       bodyLarge: TextStyle(
         fontFamily: "Inter",
-        fontWeight: FontWeight.w600,
+        fontWeight: FontWeight.bold,
         fontSize: 22,
         color: Colors.white,
       ),
