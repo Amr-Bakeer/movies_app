@@ -28,17 +28,23 @@ class ApplicationThemeManager {
       ),
 
     ),
+    appBarTheme: AppBarTheme(
+      color: Color(0xff1D1E1D),
+      iconTheme: IconThemeData(
+        color: Colors.white
+      )
+    ),
     textTheme: const TextTheme(
       titleLarge: TextStyle(
         fontFamily: "Inter",
-        fontWeight: FontWeight.bold,
-        fontSize: 24,
+        fontWeight: FontWeight.w500,
+        fontSize: 20,
         color: Colors.white,
       ),
       bodyLarge: TextStyle(
         fontFamily: "Inter",
-        fontWeight: FontWeight.bold,
-        fontSize: 22,
+        fontWeight: FontWeight.w500,
+        fontSize: 20,
         color: Colors.white,
       ),
       bodyMedium: TextStyle(
@@ -50,7 +56,7 @@ class ApplicationThemeManager {
       bodySmall: TextStyle(
         fontFamily: "Inter",
         fontWeight: FontWeight.w400,
-        fontSize: 16,
+        fontSize: 14,
         color: Colors.white,
       ),
     ),
