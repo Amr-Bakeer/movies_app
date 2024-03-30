@@ -37,7 +37,7 @@ class NewReleasesWidget extends StatelessWidget {
               ),
             ),
           ),
-          const WatchListWidget(),
+          const WatchListIconWidget(),
         ],
       ),
     );

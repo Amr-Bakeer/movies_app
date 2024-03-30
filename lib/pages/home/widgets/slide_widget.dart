@@ -88,7 +88,7 @@ class SlideWidget extends StatelessWidget {
                     "assets/images/slide_movie_pic.png",
                   ),
                 ),
-                const WatchListWidget(),
+                const WatchListIconWidget(),
               ],
             ),
           ),

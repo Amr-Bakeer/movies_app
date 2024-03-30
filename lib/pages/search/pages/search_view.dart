@@ -12,9 +12,9 @@ class SearchView extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.only(
               top: 70,
-              right: 30,
-              left: 30,
+              right: 15,
               bottom: 30,
+              left: 15,
             ),
             child: TextField(
               decoration: InputDecoration(
@@ -27,8 +27,12 @@ class SearchView extends StatelessWidget {
                   Icons.search_rounded,
                   size: 30,
                 ),
-                border: OutlineInputBorder(
+                enabledBorder: OutlineInputBorder(
                   borderRadius: BorderRadius.circular(50),
+                  borderSide: const BorderSide(
+                    color: Colors.white,
+                    width: 1,
+                  )
                 ),
                 focusedBorder: OutlineInputBorder(
                   borderSide: const BorderSide(color: Colors.white),

@@ -29,7 +29,7 @@ class MovieCardWidget extends StatelessWidget {
                   fit: BoxFit.cover,
                 ),
               ),
-              const WatchListWidget(),
+              const WatchListIconWidget(),
             ],
           ),
           InkWell(

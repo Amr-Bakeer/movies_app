@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class WatchListWidget extends StatelessWidget {
-  const WatchListWidget({super.key});
+class WatchListIconWidget extends StatelessWidget {
+  const WatchListIconWidget({super.key});
 
   @override
   Widget build(BuildContext context) {

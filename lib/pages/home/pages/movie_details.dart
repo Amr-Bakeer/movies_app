@@ -82,7 +82,7 @@ class MovieDetails extends StatelessWidget {
                               Image.asset(
                                 "assets/images/slide_movie_pic.png",
                               ),
-                              const WatchListWidget(),
+                              const WatchListIconWidget(),
                             ],
                           ),
                         ),
