@@ -1,14 +1,20 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:movies_app/core/config/constants.dart';
+import 'package:movies_app/models/popular.dart';
+import 'package:movies_app/network/api_manager.dart';
 import '../../../core/widgets/movie_card_widget.dart';
 import '../widgets/new_releases_widget.dart';
 import '../widgets/slide_widget.dart';
 
 class HomeView extends StatelessWidget {
+
+
   List<Widget> lastMovies = [
     const SlideWidget(),
   ];
+
+
 
   HomeView({
     super.key,
@@ -17,6 +23,8 @@ class HomeView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    ApiManager.fetchPopularData();
+
     return Scaffold(
       body: Expanded(
         child: ListView(
